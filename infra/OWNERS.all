@@ -1,0 +1,2 @@
+# Alias for "all" crOS infra teams.
+include OWNERS.build
