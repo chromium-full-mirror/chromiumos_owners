@@ -1,2 +1,5 @@
 # Allow self-servicing.
 include OWNERS.all
+
+per-file OWNERS.build = file:OWNERS.build
+per-file OWNERS.ci = file:OWNERS.ci
