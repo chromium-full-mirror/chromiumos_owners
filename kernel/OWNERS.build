@@ -1,0 +1,7 @@
+# For kernel build-related infrastructure (e.g., eclass/ebuild, configuration
+# scripts).
+
+briannorris@chromium.org
+dianders@chromium.org
+groeck@chromium.org
+swboyd@chromium.org

@@ -1,0 +1,5 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS._history_ = file:OWNERS._history_
+per-file OWNERS.build = file:OWNERS.build

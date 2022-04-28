@@ -1,0 +1,4 @@
+# Alias for "all" CrOS kernel subteams.
+
+include OWNERS._history_
+include OWNERS.build
