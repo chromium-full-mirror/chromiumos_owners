@@ -1,0 +1,4 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.default_apps = file:OWNERS.default_apps
