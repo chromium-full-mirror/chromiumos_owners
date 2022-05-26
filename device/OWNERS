@@ -1,0 +1,8 @@
+# Allow self-servicing.
+include OWNERS.amd
+
+per-file OWNERS.amd = file:OWNERS.amd
+per-file OWNERS.grunt = file:OWNERS.grunt
+per-file OWNERS.guybrush = file:OWNERS.guybrush
+per-file OWNERS.skyrim = file:OWNERS.skyrim
+per-file OWNERS.zork = file:OWNERS.zork

@@ -1,0 +1,7 @@
+# Set the owners and code review group for skyrim.
+# For code review, prefer group.
+cros-proj-skyrim-core@google.com
+
+include chromeos/owners:v1:/device/OWNERS.amd
+isaaclee@google.com
+moisesgarcia@google.com
