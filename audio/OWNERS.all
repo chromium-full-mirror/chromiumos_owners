@@ -1,0 +1,4 @@
+# Alias for "all" audio sub-teams.
+include OWNERS.bringup
+include OWNERS.cras
+include OWNERS.sof

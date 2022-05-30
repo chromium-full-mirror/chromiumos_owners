@@ -1,0 +1,4 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.files = file:OWNERS.files
