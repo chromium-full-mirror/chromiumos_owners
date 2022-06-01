@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright 2022 The Chromium OS Authors. All rights reserved.
+# Copyright 2022 The ChromiumOS Authors
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
@@ -27,6 +27,9 @@ from chromite.lint.linters import owners
 
 
 assert sys.version_info >= (3, 6), 'This module requires Python 3.6+'
+
+_ALLOWED_EXACT_DOMAINS = {'chromium.org', 'google.com'}
+_ALLOWED_PARENT_DOMAINS = {'gserviceaccount.com'}
 
 
 def check_data(path: Path, data: str) -> bool:
@@ -78,10 +81,16 @@ def check_data(path: Path, data: str) -> bool:
         logging.error('%s:%i: usernames-only are not allowed; full e-mail '
                       'addresses are required: "%s"', path, i, line)
       else:
-        if line.split('@')[-1] not in ('chromium.org', 'google.com'):
+        domain = line.split('@')[-1]
+        exact = domain in _ALLOWED_EXACT_DOMAINS
+        parent = any(domain.endswith(f'.{x}') for x in _ALLOWED_PARENT_DOMAINS)
+        if not (exact or parent):
           ret = False
-          logging.error('%s:%i: only @chromium.org & @google.com are allowed: '
-                        '"%s"', path, i, line)
+          exact_allowed = ', '.join(f'@{x}' for x in _ALLOWED_EXACT_DOMAINS)
+          parent_allowed = ', '.join(f'@*.{x}' for x in _ALLOWED_PARENT_DOMAINS)
+          logging.error('%s:%i: only %s, and %s parent domain (e.g. service '
+                        'account) addresses are allowed: "%s"', path, i,
+                        exact_allowed, parent_allowed, line)
 
   return ret
 

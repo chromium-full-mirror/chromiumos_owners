@@ -1,0 +1,5 @@
+# Updates to the SDK version (in sdk_version.conf).
+# ChromeOS Prod
+chromeos-ci-prod@chromeos-bot.iam.gserviceaccount.com
+# ChromeOS bot
+3su6n15k.default@developer.gserviceaccount.com
