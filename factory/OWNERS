@@ -1,0 +1,3 @@
+# Allow self-servicing.
+
+per-file OWNERS.factory = file:OWNERS.factory

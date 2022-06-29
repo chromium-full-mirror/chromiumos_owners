@@ -1,0 +1,12 @@
+# Corsola baseboard team
+
+chentsung@google.com
+hsinyi@google.com
+hungte@google.com
+knoxchiou@google.com
+shawnku@google.com
+shouchieh@google.com
+weishunc@google.com
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie

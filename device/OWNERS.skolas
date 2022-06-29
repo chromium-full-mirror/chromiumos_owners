@@ -1,0 +1,16 @@
+# Copyright 2022 The Chromium OS Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+# Skolas baseboard team
+
+include chromeos/owners:v1:/device/OWNERS.brya
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
+
+# Allow CI to maintain
+include chromeos/owners:v1:/infra/OWNERS.ci
+
+# For cross-cutting program/project refactors/updates
+include chromeos/owners:v1:/infra/OWNERS.all

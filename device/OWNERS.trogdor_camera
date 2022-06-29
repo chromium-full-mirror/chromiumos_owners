@@ -1,0 +1,10 @@
+# Trogdor camera team
+
+beckerh@google.com
+hanlinchen@google.com
+hywu@google.com
+moragues@google.com
+tfiga@google.com
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie

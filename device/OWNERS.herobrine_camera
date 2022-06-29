@@ -1,0 +1,6 @@
+# Herobrine Camera Team
+
+include chromeos/owners:v1:/device/OWNERS.trogdor_camera
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie

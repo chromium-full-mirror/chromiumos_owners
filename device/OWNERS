@@ -1,8 +1,29 @@
 # Allow self-servicing.
-include OWNERS.amd
 
 per-file OWNERS.amd = file:OWNERS.amd
+per-file OWNERS.asurada = file:OWNERS.asurada
+per-file OWNERS.brya = file:OWNERS.brya
+per-file OWNERS.brya_factory = file:OWNERS.brya_factory
+per-file OWNERS.cherry = file:OWNERS.cherry
+per-file OWNERS.corsola = file:OWNERS.corsola
+per-file OWNERS.dedede = file:OWNERS.dedede
 per-file OWNERS.grunt = file:OWNERS.grunt
 per-file OWNERS.guybrush = file:OWNERS.guybrush
+per-file OWNERS.herobrine = file:OWNERS.herobrine
+per-file OWNERS.herobrine_camera = file:OWNERS.herobrine_camera
+per-file OWNERS.keeby = file:OWNERS.keeby
+per-file OWNERS.kukui = file:OWNERS.kukui
+per-file OWNERS.oak = file:OWNERS.oak
+per-file OWNERS.octopus = file:OWNERS.octopus
+per-file OWNERS.puff = file:OWNERS.puff
+per-file OWNERS.rex = file:OWNERS.rex
+per-file OWNERS.skolas = file:OWNERS.skolas
 per-file OWNERS.skyrim = file:OWNERS.skyrim
+per-file OWNERS.strongbad = file:OWNERS.strongbad
+per-file OWNERS.trogdor = file:OWNERS.trogdor
+per-file OWNERS.trogdor_camera = file:OWNERS.trogdor_camera
+per-file OWNERS.volteer = file:OWNERS.volteer
 per-file OWNERS.zork = file:OWNERS.zork
+
+# Allow SIEs to add new files via self-servicing.
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie

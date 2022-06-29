@@ -1,0 +1,19 @@
+# Keeby baseboard team
+
+aaboagye@google.com
+aashay@google.com
+adurbin@google.com
+apronin@google.com
+cylai@google.com
+dlaurie@google.com
+frankbozar@google.com
+henrysun@google.com
+jwerner@google.com
+kramasub@google.com
+moragues@google.com
+seechen@google.com
+stimim@google.com
+wuchengli@google.com
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
