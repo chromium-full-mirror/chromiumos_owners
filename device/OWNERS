@@ -7,6 +7,7 @@ per-file OWNERS.brya_factory = file:OWNERS.brya_factory
 per-file OWNERS.cherry = file:OWNERS.cherry
 per-file OWNERS.corsola = file:OWNERS.corsola
 per-file OWNERS.dedede = file:OWNERS.dedede
+per-file OWNERS.geralt = file:OWNERS.geralt
 per-file OWNERS.grunt = file:OWNERS.grunt
 per-file OWNERS.guybrush = file:OWNERS.guybrush
 per-file OWNERS.herobrine = file:OWNERS.herobrine

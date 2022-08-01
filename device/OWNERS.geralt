@@ -1,0 +1,13 @@
+# Geralt baseboard team
+
+chentsung@google.com
+fshao@google.com
+hsinyi@google.com
+hungte@google.com
+knoxchiou@google.com
+shawnku@google.com
+weishunc@google.com
+wyuang@google.com
+
+# Allow SIE maintenance
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
