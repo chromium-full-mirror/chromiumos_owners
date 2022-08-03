@@ -13,6 +13,7 @@ from pathlib import Path
 import sys
 from typing import List, Optional
 
+
 DIR = Path(__file__).resolve().parent
 
 sys.path.insert(0, str(DIR.parent))
@@ -20,6 +21,8 @@ sys.path.insert(0, str(DIR.parent))
 # pylint: disable=wrong-import-position
 from chromite.lib import commandline
 from chromite.lint.linters import owners
+
+
 # pylint: enable=wrong-import-position
 
 
@@ -41,6 +44,11 @@ def check_data(path: Path, data: str) -> bool:
     if lstrip.startswith('set '):
       ret = False
       logging.error('%s:%i: "set" directives not allowed: "%s"', path, i, line)
+
+    if lstrip.startswith('include ') and ':' in lstrip:
+      ret = False
+      logging.error('%s:%i: "include" may not reference other repos: "%s"',
+                    path, i, line)
 
     # Allow per-file in plain "OWNERS" files since they should not be included
     # by external repos.
