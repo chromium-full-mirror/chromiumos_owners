@@ -50,6 +50,16 @@ def check_data(path: Path, data: str) -> bool:
       logging.error('%s:%i: "include" may not reference other repos: "%s"',
                     path, i, line)
 
+    if lstrip.startswith('include ./'):
+      ret = False
+      logging.error('%s:%i: "include" paths are already relative, so omit ./: '
+                    '"%s"', path, i, line)
+
+    if lstrip.startswith('include ../'):
+      ret = False
+      logging.error('%s:%i: "include" paths should be absolute: "%s"',
+                    path, i, line)
+
     # Allow per-file in plain "OWNERS" files since they should not be included
     # by external repos.
     if path.name != 'OWNERS' and lstrip.startswith('per-file '):
