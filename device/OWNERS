@@ -27,4 +27,4 @@ per-file OWNERS.volteer = file:OWNERS.volteer
 per-file OWNERS.zork = file:OWNERS.zork
 
 # Allow SIEs to add new files via self-servicing.
-include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
+include /sie/OWNERS.chromeos_sie

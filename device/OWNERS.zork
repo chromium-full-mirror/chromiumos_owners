@@ -1,6 +1,6 @@
 # Set the owners for zork.
 
-include chromeos/owners:v1:/device/OWNERS.amd
+include OWNERS.amd
 
 henrysun@google.com
 djkurtz@google.com

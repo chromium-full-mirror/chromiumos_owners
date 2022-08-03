@@ -29,4 +29,4 @@ yueherngl@google.com
 zhuohao@google.com
 
 # Allow SIE maintenance
-include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
+include /sie/OWNERS.chromeos_sie
