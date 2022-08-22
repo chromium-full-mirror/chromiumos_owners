@@ -2,3 +2,7 @@
 
 include OWNERS._history_
 include OWNERS.build
+
+# Allow audio bring up & SOF group to review kernel CLs
+include /audio/OWNERS.bringup
+include /audio/OWNERS.sof
