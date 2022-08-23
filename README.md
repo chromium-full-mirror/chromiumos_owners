@@ -1,4 +1,4 @@
-# Chrome OS Shared OWNERS Tree
+# ChromeOS Shared OWNERS Tree
 
 See [go/cros-shared-owners] for in-depth background.
 

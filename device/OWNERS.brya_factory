@@ -1,4 +1,4 @@
-# Chrome OS factory team
+# ChromeOS factory team
 include /factory/OWNERS.factory
 
 # Allow SIE maintenance

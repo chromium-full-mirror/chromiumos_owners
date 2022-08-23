@@ -11,7 +11,7 @@ buganizer {
 }
 
 buganizer_public {
-  component_id: 1037860  # Chrome OS Public Tracker > Services > Infra > Build
+  component_id: 1037860  # ChromeOS Public Tracker > Services > Infra > Build
 }
 
 team_email: "chromeos-build-discuss@google.com"
