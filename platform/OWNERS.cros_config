@@ -1,0 +1,8 @@
+# OWNERS for platform2/chromeos-config, as well as board support
+# packages, and any other cros_config bits around.
+andrewlamb@google.com
+jessemcguire@google.com
+jrosenth@google.com
+rrangel@google.com
+sjg@google.com
+sjg@chromium.org
