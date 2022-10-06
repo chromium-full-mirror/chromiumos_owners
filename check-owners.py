@@ -30,6 +30,7 @@ assert sys.version_info >= (3, 6), 'This module requires Python 3.6+'
 
 _ALLOWED_EXACT_DOMAINS = {'chromium.org', 'google.com'}
 _ALLOWED_PARENT_DOMAINS = {'gserviceaccount.com'}
+_LAST_RESORT_SUGGESTION_ANNOTATION = ' #{LAST_RESORT_SUGGESTION}'
 
 
 def check_data(path: Path, data: str) -> bool:
@@ -81,7 +82,12 @@ def check_data(path: Path, data: str) -> bool:
         logging.error('%s:%i: usernames-only are not allowed; full e-mail '
                       'addresses are required: "%s"', path, i, line)
       else:
-        domain = line.split('@')[-1]
+        email = line
+        # Allow using the #{LAST_RESORT_SUGGESTION} annotation.
+        if email.endswith(_LAST_RESORT_SUGGESTION_ANNOTATION):
+          email = email[:-len(_LAST_RESORT_SUGGESTION_ANNOTATION)]
+
+        domain = email.split('@')[-1]
         exact = domain in _ALLOWED_EXACT_DOMAINS
         parent = any(domain.endswith(f'.{x}') for x in _ALLOWED_PARENT_DOMAINS)
         if not (exact or parent):
