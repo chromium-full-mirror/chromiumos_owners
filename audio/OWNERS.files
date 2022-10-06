@@ -1,6 +1,18 @@
-# Owners for device specifec config files & BLOBs
-# Alias for bringup + sof.
+# Owners for device specific config files & BLOBs.
+# Bringup team works closely with SOF team to manage binaries in the overlays.
+# Please keep this in sync with OWNERS.files_last_resort.
 
-# Bringup team works closely with SOF team to manage binaries in the overlays
-include OWNERS.bringup
-include OWNERS.sof
+# Bringup
+yuhsuan@chromium.org
+judyhsiao@google.com
+htcheong@google.com
+whalechang@google.com
+aaronyu@google.com
+bailideng@google.com
+
+# SOF
+cujomalainey@chromium.org
+benzh@chromium.org
+eddyhsu@chromium.org
+johnylin@google.com
+andyross@google.com

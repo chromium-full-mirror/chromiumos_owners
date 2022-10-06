@@ -1,0 +1,19 @@
+# Same as OWNERS.files but with #{LAST_RESORT_SUGGESTION}.
+# This is intended for BSP packages as the audio team only manages
+# audio configs but lack the expertise to approve other BSP changes.
+# Please keep this in sync with OWNERS.files.
+
+# Bringup
+yuhsuan@chromium.org #{LAST_RESORT_SUGGESTION}
+judyhsiao@google.com #{LAST_RESORT_SUGGESTION}
+htcheong@google.com #{LAST_RESORT_SUGGESTION}
+whalechang@google.com #{LAST_RESORT_SUGGESTION}
+aaronyu@google.com #{LAST_RESORT_SUGGESTION}
+bailideng@google.com #{LAST_RESORT_SUGGESTION}
+
+# SOF
+cujomalainey@chromium.org #{LAST_RESORT_SUGGESTION}
+benzh@chromium.org #{LAST_RESORT_SUGGESTION}
+eddyhsu@chromium.org #{LAST_RESORT_SUGGESTION}
+johnylin@google.com #{LAST_RESORT_SUGGESTION}
+andyross@google.com #{LAST_RESORT_SUGGESTION}
