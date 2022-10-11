@@ -3,6 +3,9 @@
 include OWNERS._history_
 include OWNERS.build
 
+# Allow WiFi driver/mac80211 reviewers to review kernel CLs.
+include OWNERS.wifi
+
 # Allow audio bring up & SOF group to review kernel CLs
 include /audio/OWNERS.bringup
 include /audio/OWNERS.sof
