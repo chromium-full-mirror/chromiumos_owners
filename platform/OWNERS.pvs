@@ -1,0 +1,9 @@
+# OWNERS for platform/pvs, as well as other supporting bits for PVS
+# go/cros-pvs
+cawhitelaw@google.com
+ssoltysyak@google.com
+bbrotherton@google.com
+jparkerh@google.com
+curtwilliams@google.com
+weingartner@google.com
+jackgelinas@google.com
