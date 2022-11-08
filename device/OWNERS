@@ -17,6 +17,7 @@ per-file OWNERS.kukui = file:OWNERS.kukui
 per-file OWNERS.oak = file:OWNERS.oak
 per-file OWNERS.octopus = file:OWNERS.octopus
 per-file OWNERS.puff = file:OWNERS.puff
+per-file OWNERS.reven = file:OWNERS.reven
 per-file OWNERS.rex = file:OWNERS.rex
 per-file OWNERS.skolas = file:OWNERS.skolas
 per-file OWNERS.skyrim = file:OWNERS.skyrim
