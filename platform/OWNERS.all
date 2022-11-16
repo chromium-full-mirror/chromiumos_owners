@@ -1,3 +1,4 @@
 # All OWNERS files in this directory should be listed here.
 include OWNERS.cros_config
 include OWNERS.pvs
+include OWNERS.storage
