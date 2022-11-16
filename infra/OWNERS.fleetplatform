@@ -1,0 +1,31 @@
+# Stakeholders from Chrome Fleet Software team.
+# Keep sorted.
+#
+# Same as http://cs/chromeos_public/src/config/OWNERS.fleetplatform
+
+anhdle@chromium.org
+anhdle@google.com
+ashishgandhi@chromium.org
+ashishgandhi@google.com
+ayatane@chromium.org
+ayatane@google.com
+denizkara@chromium.org
+denizkara@google.com
+gregorynisbet@chromium.org
+gregorynisbet@google.com
+guocb@chromium.org
+guocb@google.com
+mmatyjek@chromium.org
+mmatyjek@google.com
+otabek@chromium.org
+otabek@google.com
+rgauny@chromium.org
+rgauny@google.com
+vivekshah@chromium.org
+vivekshah@google.com
+xianuowang@chromium.org
+xianuowang@google.com
+xixuan@chromium.org
+xixuan@google.com
+
+# Buganizer Component: Chrome Operations > Fleet > Software
