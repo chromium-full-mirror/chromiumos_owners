@@ -2,6 +2,7 @@
 
 include OWNERS._history_
 include OWNERS.build
+include OWNERS.kdump
 
 # Allow WiFi driver/mac80211 reviewers to review kernel CLs.
 include OWNERS.wifi
