@@ -7,6 +7,5 @@ include OWNERS.kdump
 # Allow WiFi driver/mac80211 reviewers to review kernel CLs.
 include OWNERS.wifi
 
-# Allow audio bring up & SOF group to review kernel CLs
-include /audio/OWNERS.bringup
-include /audio/OWNERS.sof
+# Allow audio bring up & SOF group to review kernel CLs.
+include /audio/OWNERS.files
