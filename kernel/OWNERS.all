@@ -9,3 +9,6 @@ include OWNERS.wifi
 
 # Allow audio bring up & SOF group to review kernel CLs.
 include /audio/OWNERS.files
+
+# Allow OS bring-up team to review kernel CLs.
+include OWNERS.bringup
