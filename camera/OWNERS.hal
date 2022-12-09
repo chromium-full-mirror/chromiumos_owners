@@ -1,0 +1,3 @@
+# Userspace code and config
+include OWNERS.hal_code
+include OWNERS.hal_config
