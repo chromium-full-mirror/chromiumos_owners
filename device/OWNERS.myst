@@ -1,0 +1,6 @@
+# Set the owners and code review group for myst.
+# For code review, prefer group.
+cros-proj-skyrim-core@google.com
+
+include OWNERS.amd
+chaogui@google.com
