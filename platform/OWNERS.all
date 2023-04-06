@@ -1,4 +1,8 @@
 # All OWNERS files in this directory should be listed here.
+include OWNERS.au
 include OWNERS.cros_config
+include OWNERS.dlc
+include OWNERS.nbr
+include OWNERS.provision
 include OWNERS.pvs
 include OWNERS.storage
