@@ -1,10 +1,14 @@
 # For consistency an alphabetical order is recommended.
 
 # The factory-private repo is owned by ChromeOS factory team.
-# ganpati2 --ganpati2=ganpati2 membership list \
-#    --parent %chromeos-factory-eng.corp | \
+#
+# To update the list, delete the old members, and run the following command to
+# find members joint for 6 months or more.
+#
+# ganpati2 membership list --parent %chromeos-factory-eng.corp \
+#    --created_before "$(date --date='-6 month' '+%Y-%m-%d')" | \
 #    awk ' {print $5} ' | cut -d'.' -f1 | \
-#    awk ' { print $1 "@google.com" } ' | sort
+#    awk ' { print $1 "@google.com" } ' | sort >>factory/OWNERS.factory
 
 allenshihmc@google.com
 byronlee@google.com
