@@ -1,28 +1,44 @@
 # For consistency an alphabetical order is recommended.
 
 # The factory-private repo is owned by ChromeOS factory team.
+# ganpati2 --ganpati2=ganpati2 membership list \
+#    --parent %chromeos-factory-eng.corp | \
+#    awk ' {print $5} ' | cut -d'.' -f1 | \
+#    awk ' { print $1 "@google.com" } ' | sort
+
+allenshihmc@google.com
+byronlee@google.com
 chenghan@google.com
 chungsheng@google.com
 chuntsen@google.com
 clarkchung@google.com
+conradlo@google.com
+cornerli@google.com
 cyueh@google.com
-frankbozar@google.com
+dennyh@google.com
 fshao@google.com
 genechang@google.com
+huanhuanl@google.com
 hungte@google.com
+iamjeffliu@google.com
 itspeter@google.com
 jamesqaq@google.com
 jasonchuang@google.com
+jeffulin@google.com
+jimmysun@google.com
 jjsu@google.com
 kerker@google.com
 kevinptt@google.com
+louischiu@google.com
 lschyi@google.com
 menghuan@google.com
 phoebewang@google.com
-phoenixshen@google.com
-pihsun@chromium.org
 roccochen@google.com
+rueifong@google.com
+stevesu@google.com
 stimim@google.com
-treapking@google.com
+wdzeng@google.com
+weiluanwang@google.com
 wyuang@google.com
 yhong@google.com
+yycheng@google.com
