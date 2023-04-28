@@ -6,4 +6,5 @@ include OWNERS.hwtools
 include OWNERS.nbr
 include OWNERS.provision
 include OWNERS.pvs
+include OWNERS.segmentation
 include OWNERS.storage
