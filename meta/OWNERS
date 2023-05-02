@@ -1,0 +1,2 @@
+# Ownership of each meta-owners file should be listed separately.
+per-file OWNERS.overlays = file:/infra/OWNERS.build

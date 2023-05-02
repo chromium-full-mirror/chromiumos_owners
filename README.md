@@ -19,6 +19,11 @@ At a high level, the structure should follow this pattern:
     *   OWNERS.all: Include all the subgroups in here, iff it makes sense to.
     *   OWNERS.{grouping}: The group of developers for a particular purpose.
 
+The special organizational name `meta` is for OWNERS files which do not list
+specific individuals, but instead are used for a stable file path for
+mass-inclusion purposes that may not necessarily correspond to a team boundary.
+For example, `meta/OWNERS.overlays` specifies who has owners on all overlays.
+
 When adding a new group, try to find an existing subdir to use.  If none are
 appropriate, feel free to propose one by reaching out to g/chops-cros-help.
 
