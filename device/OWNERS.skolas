@@ -4,9 +4,3 @@ include OWNERS.brya
 
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
-
-# Allow CI to maintain
-include /infra/OWNERS.ci
-
-# For cross-cutting program/project refactors/updates
-include /infra/OWNERS.all
