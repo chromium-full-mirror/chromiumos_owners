@@ -1,6 +1,6 @@
 # ChromeOS Shared OWNERS Tree
 
-See [go/cros-shared-owners] for in-depth background.
+See [go/cros-shared-owners:design] for in-depth background.
 
 Developers & teams are encouraged to self organize as makes sense for their
 particular project and needs.  There is no council that hands out names :).
@@ -145,4 +145,4 @@ accidentally adding them to places they shouldn't.
 
 
 [Branching]: #Branching
-[go/cros-shared-owners]: https://goto.google.com/cros-shared-owners
+[go/cros-shared-owners:design]: https://goto.google.com/cros-shared-owners:design
