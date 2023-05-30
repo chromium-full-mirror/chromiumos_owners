@@ -1,11 +1,17 @@
 # CrOS Build Team.
-# Keep sorted.
-anujjamwal@google.com
-gcontreras@google.com
-jrosenth@google.com
-rchandrasekar@google.com
-saklein@chromium.org
-sfrolov@google.com
-vapier@chromium.org
-xcl@google.com
-zland@google.com
+
+# Send reviews to our GWSQ.
+chromeos-build-team@google.com
+
+# Keep sorted.  The LAST_RESORT_SUGGESTION should be applied to each
+# user so that people see our GWSQ instead.
+anujjamwal@google.com #{LAST_RESORT_SUGGESTION}
+gcontreras@google.com #{LAST_RESORT_SUGGESTION}
+gredelston@google.com #{LAST_RESORT_SUGGESTION}
+jrosenth@google.com #{LAST_RESORT_SUGGESTION}
+rchandrasekar@google.com #{LAST_RESORT_SUGGESTION}
+saklein@chromium.org #{LAST_RESORT_SUGGESTION}
+sfrolov@google.com #{LAST_RESORT_SUGGESTION}
+vapier@chromium.org #{LAST_RESORT_SUGGESTION}
+xcl@google.com #{LAST_RESORT_SUGGESTION}
+zland@google.com #{LAST_RESORT_SUGGESTION}
