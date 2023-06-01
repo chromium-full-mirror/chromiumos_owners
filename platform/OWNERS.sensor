@@ -1,0 +1,5 @@
+# For iioservice and dependencies to support MEMS sensors
+# (proxmity, accelerometer, gyroscope...).
+chenghaoyang@google.com
+ejcaruso@google.com
+gwendal@google.com
