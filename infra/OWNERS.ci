@@ -1,19 +1,24 @@
 # CrOS CI team.
-andrewlamb@chromium.org
-arifkasim@google.com
-azrahman@google.com
-bshai@google.com
-ctmcnamara@chromium.org
-dhanyaganesh@chromium.org
-engeg@google.com
-gerb@google.com
-gredelston@google.com
-hardtmad@google.com
-harshpadh@google.com
-jackneus@google.com
-jaquesc@google.com
-jaredloucks@google.com
-juahurta@google.com
-mingkong@google.com
-navil@google.com
-tbain@google.com
+# Send reviews to our GWSQ.
+chromeos-continuous-integration-team@google.com
+
+# Keep sorted. The LAST_RESORT_SUGGESTION should be applied to each
+# user so that people see our GWSQ instead.
+andrewlamb@chromium.org #{LAST_RESORT_SUGGESTION}
+arifkasim@google.com #{LAST_RESORT_SUGGESTION}
+azrahman@google.com #{LAST_RESORT_SUGGESTION}
+bshai@google.com #{LAST_RESORT_SUGGESTION}
+ctmcnamara@chromium.org #{LAST_RESORT_SUGGESTION}
+dhanyaganesh@chromium.org #{LAST_RESORT_SUGGESTION}
+engeg@google.com #{LAST_RESORT_SUGGESTION}
+gerb@google.com #{LAST_RESORT_SUGGESTION}
+gredelston@google.com #{LAST_RESORT_SUGGESTION}
+hardtmad@google.com #{LAST_RESORT_SUGGESTION}
+harshpadh@google.com #{LAST_RESORT_SUGGESTION}
+jackneus@google.com #{LAST_RESORT_SUGGESTION}
+jaquesc@google.com #{LAST_RESORT_SUGGESTION}
+jaredloucks@google.com #{LAST_RESORT_SUGGESTION}
+juahurta@google.com #{LAST_RESORT_SUGGESTION}
+mingkong@google.com #{LAST_RESORT_SUGGESTION}
+navil@google.com #{LAST_RESORT_SUGGESTION}
+tbain@google.com #{LAST_RESORT_SUGGESTION}
