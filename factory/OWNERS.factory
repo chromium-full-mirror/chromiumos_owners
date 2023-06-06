@@ -2,27 +2,24 @@
 
 # The factory-private repo is owned by ChromeOS factory team.
 #
-# To update the list, delete the old members, and run the following command to
-# find members joint for 6 months or more.
-#
-# ganpati2 membership list --parent %chromeos-factory-eng.corp \
-#    --created_before "$(date --date='-6 month' '+%Y-%m-%d')" | \
-#    awk ' {print $5} ' | cut -d'.' -f1 | \
-#    awk ' { print $1 "@google.com" } ' | sort >>factory/OWNERS.factory
+# To update the list, run the following command:
+#   python3 ${REPO}/src/platform/factory-private/management/update-owners.py
 
+# If you want to manually add someone to the owners, you can add them after
+# this line.
+
+### DON'T MANUALLY CHANGE ANYTHING AFTER THIS LINE ###
+### AUTO-UPDATE SECTION STARTS HERE ###
 allenshihmc@google.com
 byronlee@google.com
 chenghan@google.com
 chungsheng@google.com
 chuntsen@google.com
 clarkchung@google.com
-conradlo@google.com
-cornerli@google.com
 cyueh@google.com
 dennyh@google.com
 fshao@google.com
 genechang@google.com
-huanhuanl@google.com
 hungte@google.com
 iamjeffliu@google.com
 itspeter@google.com
