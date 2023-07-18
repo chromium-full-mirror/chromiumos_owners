@@ -1,3 +1,5 @@
 # Allow self-servicing.
+include OWNERS.factory
 
 per-file OWNERS.factory = file:OWNERS.factory
+per-file OWNERS.racc = file:OWNERS.racc
