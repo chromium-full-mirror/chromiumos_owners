@@ -10,3 +10,6 @@ zhuohao@google.com
 
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
+
+# Allow Kernel uprev
+include /kernel/OWNERS
