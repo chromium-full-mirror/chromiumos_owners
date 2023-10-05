@@ -88,12 +88,17 @@ def check_data(path: Path, data: str) -> bool:
             ret = False
             logging.error('%s:%i: "*" not allowed', path, i)
 
-        if (
-            lstrip
-            and not lstrip.startswith("#")
-            and not lstrip.startswith("include ")
-            and not lstrip.startswith("per-file ")
-        ):
+        if lstrip.startswith("include ") or lstrip.startswith("per-file "):
+            if lstrip.endswith("OWNERS"):
+                ret = False
+                logging.error(
+                    "%s:%i: plain 'OWNERS' must not be included; "
+                    'use a more specific OWNERS.xxx instead: "%s"',
+                    path,
+                    i,
+                    line,
+                )
+        elif lstrip and not lstrip.startswith("#"):
             if "@" not in line:
                 ret = False
                 logging.error(
