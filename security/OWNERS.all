@@ -1,0 +1,6 @@
+# Subsets of the ChromeOS Security team are responsible for different areas
+# of ownership.
+
+include OWNERS.packages
+include OWNERS.seccomp
+include OWNERS.users
