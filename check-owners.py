@@ -30,7 +30,7 @@ assert sys.version_info >= (3, 6), "This module requires Python 3.6+"
 
 _ALLOWED_EXACT_DOMAINS = {"chromium.org", "google.com"}
 _ALLOWED_PARENT_DOMAINS = {"gserviceaccount.com"}
-_LAST_RESORT_SUGGESTION_ANNOTATION = " #{LAST_RESORT_SUGGESTION}"
+_LAST_RESORT_SUGGESTION_ANNOTATION = "#{LAST_RESORT_SUGGESTION}"
 
 
 def check_data(path: Path, data: str) -> bool:
@@ -112,7 +112,9 @@ def check_data(path: Path, data: str) -> bool:
                 email = line
                 # Allow using the #{LAST_RESORT_SUGGESTION} annotation.
                 if email.endswith(_LAST_RESORT_SUGGESTION_ANNOTATION):
-                    email = email[: -len(_LAST_RESORT_SUGGESTION_ANNOTATION)]
+                    email = email[
+                        : -len(_LAST_RESORT_SUGGESTION_ANNOTATION)
+                    ].rstrip()
 
                 domain = email.split("@")[-1]
                 exact = domain in _ALLOWED_EXACT_DOMAINS
@@ -137,6 +139,28 @@ def check_data(path: Path, data: str) -> bool:
                         line,
                     )
 
+                # Special settings for bot accounts.
+                if path.parent.name == "bots":
+                    if not any(
+                        domain.endswith(f".{x}")
+                        for x in _ALLOWED_PARENT_DOMAINS
+                    ):
+                        ret = False
+                        logging.error(
+                            '%s:%i: humans are not allowed in bots/: "%s"',
+                            path,
+                            i,
+                            email,
+                        )
+                    if not line.endswith(_LAST_RESORT_SUGGESTION_ANNOTATION):
+                        ret = False
+                        logging.error(
+                            '%s:%i: annotate bots with "%s"',
+                            path,
+                            i,
+                            _LAST_RESORT_SUGGESTION_ANNOTATION,
+                        )
+
     return ret
 
 
@@ -145,7 +169,20 @@ def check_path(path: Path) -> bool:
     logging.debug("Checking %s", path)
     data = path.read_text()
 
-    return check_data(path, data)
+    ret = check_data(path, data)
+
+    # Some path based checks.
+    if path.parent.name == "bots":
+        if path.name in {"OWNERS", "OWNERS.all"}:
+            ret = False
+            logging.error(
+                "%s: bots/ does not permit '%s' files, only narrowly scoped "
+                "OWNERS.xxx scoped files",
+                path,
+                path.name,
+            )
+
+    return ret
 
 
 def main(argv: Optional[List[str]] = None) -> Optional[int]:
