@@ -1,5 +1,5 @@
 # Updates to prebuilt.conf and similar files where binhosts are stored.
 # ChromeOS Prod
-chromeos-ci-prod@chromeos-bot.iam.gserviceaccount.com
+chromeos-ci-prod@chromeos-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
 # ChromeOS bot
-3su6n15k.default@developer.gserviceaccount.com
+3su6n15k.default@developer.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
