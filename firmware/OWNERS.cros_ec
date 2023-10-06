@@ -1,69 +1,60 @@
+# Please use gwsq alias for gerrit reviews.
+cros-ec-reviewers@google.com
+
 # All members of the cros-ec@google.com Group.
 # Copied from https://expn.corp.google.com/. Resync as needed.
 
-aaboagye@google.com
-aaronmassey@google.com
-acwans@google.com
-adamjmills@google.com
-aklm@google.com
-alevkoy@google.com
-amcrae@google.com
-apronin@google.com
-asemjonovs@google.com
-barnas@google.com
-bmbm@google.com
-campello@google.com
-caveh@google.com
-czapiga@google.com
-dabros@google.com
-dawidn@google.com
-dcjansen@google.com
-delatmiguel@google.com
-djkurtz@google.com
-dnojiri@google.com
-dossym@google.com
-dzigterman@google.com
-fabiobaltieri@google.com
-filipek@google.com
-hajec@google.com
-honscheid@google.com
-hungte@google.com
-jasonyuan@google.com
-jbettis@google.com
-jettrink@google.com
-jrosenth@google.com
-keithshort@google.com
-khwon@google.com
-lschyi@google.com
-mparuchuri@google.com
-mruthven@google.com
-nartemiev@google.com
-ndureus@google.com
-nogasmith@google.com
-parthmalkan@google.com
-peress@google.com
-pfagerburg@google.com
-pgeorgi@google.com
-phoenixshen@google.com
-pmarheine@google.com
-quasisec@google.com
-ricardoq@google.com
-robbarnes@google.com
-robertzieba@google.com
-rongchang@google.com
-rrangel@google.com
-scollyer@google.com
-shurst@google.com
-sjg@google.com
-skbhasin@google.com
-skrzypnik@google.com
-stoller@google.com
-sukhomlinov@google.com
-swapnaiyer@google.com
-taruntuli@google.com
-tij@google.com
-tmichalec@google.com
-vbendeb@google.com
-waihong@google.com
-weishunc@google.com
-yllin@google.com
+aaboagye@google.com #{LAST_RESORT_SUGGESTION}
+aaronmassey@google.com #{LAST_RESORT_SUGGESTION}
+acwans@google.com #{LAST_RESORT_SUGGESTION}
+alevkoy@google.com #{LAST_RESORT_SUGGESTION}
+apronin@google.com #{LAST_RESORT_SUGGESTION}
+asemjonovs@google.com #{LAST_RESORT_SUGGESTION}
+barnas@google.com #{LAST_RESORT_SUGGESTION}
+bmbm@google.com #{LAST_RESORT_SUGGESTION}
+caveh@google.com #{LAST_RESORT_SUGGESTION}
+czapiga@google.com #{LAST_RESORT_SUGGESTION}
+dabros@google.com #{LAST_RESORT_SUGGESTION}
+dawidn@google.com #{LAST_RESORT_SUGGESTION}
+delatmiguel@google.com #{LAST_RESORT_SUGGESTION}
+dnojiri@google.com #{LAST_RESORT_SUGGESTION}
+dossym@google.com #{LAST_RESORT_SUGGESTION}
+epeers@google.com #{LAST_RESORT_SUGGESTION}
+fabiobaltieri@google.com #{LAST_RESORT_SUGGESTION}
+filipek@google.com #{LAST_RESORT_SUGGESTION}
+hajec@google.com #{LAST_RESORT_SUGGESTION}
+honscheid@google.com #{LAST_RESORT_SUGGESTION}
+hungte@google.com #{LAST_RESORT_SUGGESTION}
+jasonyuan@google.com #{LAST_RESORT_SUGGESTION}
+jbettis@google.com #{LAST_RESORT_SUGGESTION}
+jettrink@google.com #{LAST_RESORT_SUGGESTION}
+jnwachukwu@google.com #{LAST_RESORT_SUGGESTION}
+keithshort@google.com #{LAST_RESORT_SUGGESTION}
+lschyi@google.com #{LAST_RESORT_SUGGESTION}
+mparuchuri@google.com #{LAST_RESORT_SUGGESTION}
+mruthven@google.com #{LAST_RESORT_SUGGESTION}
+ndureus@google.com #{LAST_RESORT_SUGGESTION}
+nogasmith@google.com #{LAST_RESORT_SUGGESTION}
+peress@google.com #{LAST_RESORT_SUGGESTION}
+pgeorgi@google.com #{LAST_RESORT_SUGGESTION}
+phoenixshen@google.com #{LAST_RESORT_SUGGESTION}
+pmarheine@google.com #{LAST_RESORT_SUGGESTION}
+quasisec@google.com #{LAST_RESORT_SUGGESTION}
+rekanorman@google.com #{LAST_RESORT_SUGGESTION}
+robbarnes@google.com #{LAST_RESORT_SUGGESTION}
+robertzieba@google.com #{LAST_RESORT_SUGGESTION}
+rrangel@google.com #{LAST_RESORT_SUGGESTION}
+scollyer@google.com #{LAST_RESORT_SUGGESTION}
+shurst@google.com #{LAST_RESORT_SUGGESTION}
+sjg@google.com #{LAST_RESORT_SUGGESTION}
+skbhasin@google.com #{LAST_RESORT_SUGGESTION}
+stoller@google.com #{LAST_RESORT_SUGGESTION}
+sukhomlinov@google.com #{LAST_RESORT_SUGGESTION}
+swapnaiyer@google.com #{LAST_RESORT_SUGGESTION}
+tij@google.com #{LAST_RESORT_SUGGESTION}
+tmichalec@google.com #{LAST_RESORT_SUGGESTION}
+vbendeb@google.com #{LAST_RESORT_SUGGESTION}
+waihong@google.com #{LAST_RESORT_SUGGESTION}
+weishunc@google.com #{LAST_RESORT_SUGGESTION}
+wongdanny@google.com #{LAST_RESORT_SUGGESTION}
+yllin@google.com #{LAST_RESORT_SUGGESTION}
