@@ -1,6 +1,7 @@
 # Allow self-servicing.
 include OWNERS.all
 
+per-file OWNERS.hardening = file:OWNERS.hardening
 per-file OWNERS.packages = file:OWNERS.packages
 per-file OWNERS.seccomp = file:OWNERS.seccomp
 per-file OWNERS.users = file:OWNERS.users
