@@ -2,3 +2,4 @@
 
 include OWNERS.cros_ap
 include OWNERS.cros_ec
+include OWNERS.cros_gsc
