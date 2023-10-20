@@ -1,0 +1,5 @@
+# Allow self-servicing.
+per-file OWNERS.chromeos_sdt = file:OWNERS.chromeos_sdt
+
+# Allow SDTs to add new files via self-servicing.
+include OWNERS.chromeos_sdt
