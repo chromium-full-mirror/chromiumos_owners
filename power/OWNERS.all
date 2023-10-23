@@ -1,0 +1,5 @@
+# Alias for "all" ChromeOS power functionalities.
+
+include OWNERS.powerd
+include OWNERS.tast
+include OWNERS.tauto

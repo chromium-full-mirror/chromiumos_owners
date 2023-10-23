@@ -1,0 +1,6 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.powerd = file:OWNERS.powerd
+per-file OWNERS.tast = file:OWNERS.tast
+per-file OWNERS.tauto = file:OWNERS.tauto
