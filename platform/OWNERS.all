@@ -2,6 +2,7 @@
 include OWNERS.au
 include OWNERS.cros_config
 include OWNERS.dlc
+include OWNERS.flexor
 include OWNERS.hwtools
 include OWNERS.nbr
 include OWNERS.provision
