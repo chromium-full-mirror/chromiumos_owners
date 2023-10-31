@@ -1,4 +1,3 @@
 # All the camera team: kernelspace + userspace
-include OWNERS.app
-include OWNERS.camera_service
+include OWNERS.hal
 include OWNERS.kernel
