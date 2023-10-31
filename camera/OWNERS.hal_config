@@ -1,2 +1,4 @@
-# Camera service config
-kamesan@google.com
+# OBSOLETE: This file can not be deleted; see the layout section of this repo
+# top dir README.md.
+
+include OWNERS.camera_service_config

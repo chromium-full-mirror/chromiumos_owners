@@ -1,3 +1,4 @@
-# Camera service code and config
-include OWNERS.camera_service_code
-include OWNERS.camera_service_config
+# OBSOLETE: This file can not be deleted; see the layout section of this repo
+# top dir README.md.
+
+include OWNERS.camera_service
