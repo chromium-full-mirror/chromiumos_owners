@@ -2,3 +2,5 @@
 
 include OWNERS.tests
 include OWNERS.kernel
+include OWNERS.shill
+include OWNERS.wpa_supplicant

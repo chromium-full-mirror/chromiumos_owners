@@ -5,3 +5,5 @@ billyzhao@google.com
 
 per-file OWNERS.tests = file:OWNERS.tests
 per-file OWNERS.kernel = file:OWNERS.kernel
+per-file OWNERS.shill = file:OWNERS.shill
+per-file OWNERS.wpa_supplicant = file:OWNERS.wpa_supplicant
