@@ -25,10 +25,10 @@ mass-inclusion purposes that may not necessarily correspond to a team boundary.
 For example, `meta/OWNERS.overlays` specifies who has owners on all overlays.
 
 When adding a new group, try to find an existing subdir to use.  If none are
-appropriate, feel free to propose one by reaching out to g/chops-cros-help.
+appropriate, feel free to propose one by reaching out to [CrOS infra].
 
 Subdirs of subdirs are not currently permitted.  If you think it makes sense
-to organize that way, feel free to reach out to g/chops-cros-help.
+to organize that way, feel free to reach out to [CrOS infra].
 
 Once an OWNERS.{grouping} file has been created and referenced elsewhere in the
 CrOS tree, it cannot be removed.  A {new grouping} can be created, and the old
@@ -108,7 +108,7 @@ If we've gotten to the point where there are too many of these old names around,
 we can create a new versioned branch.  The process looks like:
 
 *   If we're at `v1` today, then create `v2` starting at the existing `v1`.
-    *   Contact g/chops-cros-help who will work with go/git-admin-bug.
+    *   Contact [CrOS infra] who will work with [go/git-admin-bug].
 *   Update the CrOS manifest to use `v2` in the checkout.
     *   This is safe to land immediately -- this project is in the manifest out
         of convenience only.  It has no relationship to the includes used in
@@ -145,4 +145,6 @@ accidentally adding them to places they shouldn't.
 
 
 [Branching]: #Branching
+[CrOS infra]: https://goto.google.com/cros-infra-help
 [go/cros-shared-owners:design]: https://goto.google.com/cros-shared-owners:design
+[go/git-admin-bug]: https://goto.google.com/git-admin-bug
