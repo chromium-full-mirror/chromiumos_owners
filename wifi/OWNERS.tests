@@ -1,0 +1,20 @@
+# This owners file is a list of CrOS WiFi team members
+# that should be able to approve review and approve
+# WiFi related tests.
+
+andrzejo@google.com
+arowa@chromium.org
+billyzhao@chromium.org
+druth@chromium.org
+harpreet@chromium.org
+jintaolin@chromium.org
+jsiuda@google.com
+junyuu@chromium.org
+kaidong@chromium.org
+kglund@google.com
+kuabhs@chromium.org
+matthewmwang@chromium.org
+norvez@chromium.org
+rmekonnen@google.com
+srosek@google.com
+yichenyu@chromium.org

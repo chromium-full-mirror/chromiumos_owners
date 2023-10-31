@@ -2,3 +2,5 @@
 include OWNERS.all
 # Bootstrap WiFi OWNERS files
 billyzhao@google.com
+
+per-file OWNERS.tests = file:OWNERS.tests
