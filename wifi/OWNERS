@@ -4,3 +4,4 @@ include OWNERS.all
 billyzhao@google.com
 
 per-file OWNERS.tests = file:OWNERS.tests
+per-file OWNERS.kernel = file:OWNERS.kernel
