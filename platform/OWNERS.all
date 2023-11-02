@@ -3,8 +3,10 @@ include OWNERS.au
 include OWNERS.cros_config
 include OWNERS.dlc
 include OWNERS.flexor
+include OWNERS.hmr
 include OWNERS.hwtools
 include OWNERS.nbr
+include OWNERS.p12s
 include OWNERS.provision
 include OWNERS.pvs
 include OWNERS.segmentation
