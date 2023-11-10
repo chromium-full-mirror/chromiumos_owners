@@ -138,8 +138,10 @@ If your accounts are not linked, you will probably need to list both.
 ### Why do I get `[code-owners] code owner email 'X@chromium.org' in '/foo/OWNERS.bar' cannot be resolved` when X's accounts are linked?
 
 The same email (X@chromium.org or X@google.com) needs to be set as preferred
-email in Gerrit's settings for the internal and chromium instance. Eg:
-https://chrome-internal-review.googlesource.com/settings/#EmailAddresses
+email in Gerrit's settings for the internal and chromium instance. See the
+settings:
+* https://chromium-review.googlesource.com/settings/#EmailAddresses
+* https://chrome-internal-review.googlesource.com/settings/#EmailAddresses
 
 ### Can we list non-Googlers (e.g. partners)?
 
