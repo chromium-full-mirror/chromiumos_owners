@@ -1,2 +1,3 @@
 # Include all subteams.
 include OWNERS.infra
+include OWNERS.platform
