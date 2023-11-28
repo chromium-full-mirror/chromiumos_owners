@@ -12,3 +12,6 @@ include /audio/OWNERS.files
 
 # Allow OS bring-up team to review kernel CLs.
 include OWNERS.bringup
+
+# Allow graphics team leads to review kernel CLs.
+include OWNERS.graphics
