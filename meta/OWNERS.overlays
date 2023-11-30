@@ -1,2 +1,2 @@
 # Default owners on all overlays.
-include /infra/OWNERS.build  #{LAST_RESORT_SUGGESTION}
+include /infra/OWNERS.build
