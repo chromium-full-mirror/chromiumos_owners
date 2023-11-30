@@ -29,6 +29,3 @@ shouchieh@google.com
 yueherngl@google.com
 yulunchen@google.com
 zhuohao@google.com
-
-# For cross-cutting program/project refactors/updates
-include /infra/OWNERS.all  #{LAST_RESORT_SUGGESTION}
