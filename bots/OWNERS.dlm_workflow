@@ -1,3 +1,3 @@
 # Update CL and review for workflow automation.
 # ChromeOS DLM workflow bot
-chromeos-device-lifecycle-api@system.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-device-lifecycle-api@google.com #{LAST_RESORT_SUGGESTION}
