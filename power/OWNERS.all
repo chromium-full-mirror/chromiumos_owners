@@ -3,3 +3,15 @@
 include OWNERS.powerd
 include OWNERS.tast
 include OWNERS.tauto
+
+# Include @google.com accounts for those who use @chromium.org on
+# chromium-review
+dbasehore@google.com
+mqg@google.com
+puthik@google.com
+slangley@google.com
+mka@google.com
+jmpollock@google.com
+quasisec@google.com
+skyostil@google.com
+ejcaruso@google.com
