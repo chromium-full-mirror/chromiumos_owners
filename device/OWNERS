@@ -1,12 +1,15 @@
 # Allow self-servicing.
 
 per-file OWNERS.amd = file:OWNERS.amd
+per-file OWNERS.apl = file:OWNERS.apl
 per-file OWNERS.asurada = file:OWNERS.asurada
+per-file OWNERS.atlas = file:OWNERS.atlas
 per-file OWNERS.brya = file:OWNERS.brya
 per-file OWNERS.brya_factory = file:OWNERS.brya_factory
 per-file OWNERS.cherry = file:OWNERS.cherry
 per-file OWNERS.corsola = file:OWNERS.corsola
 per-file OWNERS.dedede = file:OWNERS.dedede
+per-file OWNERS.eve = file:OWNERS.eve
 per-file OWNERS.geralt = file:OWNERS.geralt
 per-file OWNERS.grunt = file:OWNERS.grunt
 per-file OWNERS.guybrush = file:OWNERS.guybrush
