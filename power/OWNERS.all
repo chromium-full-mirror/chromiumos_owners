@@ -6,7 +6,6 @@ include OWNERS.tauto
 
 # Include @google.com accounts for those who use @chromium.org on
 # chromium-review
-dbasehore@google.com
 mqg@google.com
 puthik@google.com
 slangley@google.com

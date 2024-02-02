@@ -12,5 +12,4 @@ zhuohao@google.com
 include /sie/OWNERS.chromeos_sie
 
 # Allow Kernel uprev
-markhas@google.com
 mattedavis@google.com
