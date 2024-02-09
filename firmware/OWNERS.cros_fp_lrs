@@ -1,0 +1,11 @@
+# This file serves as the global OWNERS file for all fingerprint-related
+# code. Do not set "noparent" or "per-file". See http://go/cros-shared-owners.
+# Please keep this file identical to OWNERS.cros_fp, except with #{LAST_RESORT_SUGGESTION}
+
+bobbycasey@google.com #{LAST_RESORT_SUGGESTION}
+fsammoura@google.com #{LAST_RESORT_SUGGESTION}
+hesling@google.com #{LAST_RESORT_SUGGESTION}
+jora@google.com #{LAST_RESORT_SUGGESTION}
+josienordrum@google.com #{LAST_RESORT_SUGGESTION}
+patrykd@google.com #{LAST_RESORT_SUGGESTION}
+tomhughes@google.com #{LAST_RESORT_SUGGESTION}
