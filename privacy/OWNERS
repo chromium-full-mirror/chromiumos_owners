@@ -1,0 +1,5 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.features = file:OWNERS.features
+per-file OWNERS.soul = file:OWNERS.soul
