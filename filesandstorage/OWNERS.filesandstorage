@@ -1,0 +1,10 @@
+# OWNERS for cros-disks, smbfs, fusebox and a number of portage packages.
+# Also OWNERS for the filemanager Tast directory.
+alexbn@chromium.org
+austinct@chromium.org
+benreich@chromium.org
+fdegros@chromium.org
+jboulic@chromium.org
+nigeltao@chromium.org
+petermarshall@chromium.org
+simmonsjosh@google.com
