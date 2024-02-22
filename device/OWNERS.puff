@@ -7,5 +7,10 @@ treapking@google.com
 yueherngl@google.com
 zhuohao@google.com
 
+# Puff kernel uprev project
+asavery@google.com
+mattedavis@google.com
+miguelquintero@google.com
+
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
