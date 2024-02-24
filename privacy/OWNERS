@@ -1,5 +1,6 @@
 # Allow self-servicing.
 include OWNERS.all
 
+per-file OWNERS.client_logging = file:OWNERS.client_logging
 per-file OWNERS.features = file:OWNERS.features
 per-file OWNERS.soul = file:OWNERS.soul
