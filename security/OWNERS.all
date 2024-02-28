@@ -5,4 +5,5 @@ include OWNERS.cryptohome
 include OWNERS.hardening
 include OWNERS.packages
 include OWNERS.seccomp
+include OWNERS.selinux
 include OWNERS.users
