@@ -1,0 +1,5 @@
+# CrOS CoP http://go/cros-cop
+
+include /camera/OWNERS.kernel
+aaronyu@google.com
+nicholasbishop@google.com
