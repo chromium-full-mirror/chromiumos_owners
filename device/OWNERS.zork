@@ -1,12 +1,11 @@
-# Set the owners for zork.
+# Set the owners and code review group for zork.
+# For code review, prefer group.
+cros-amd-review@google.com
 
 include OWNERS.amd
 
-henrysun@google.com
-djkurtz@google.com
-sammc@google.com
-isaaclee@google.com
-treapking@google.com
+# Allow SIE maintenance
+include /sie/OWNERS.chromeos_sie
 
 # kernel uprev owner
 mattedavis@google.com

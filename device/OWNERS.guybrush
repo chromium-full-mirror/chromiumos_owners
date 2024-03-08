@@ -1,7 +1,8 @@
-# Set the owners for Monkey Island.
+# Set the owners and code review group for Monkey Island.
 # For code review, prefer group.
-cros-proj-monkeyisland-core@google.com
+cros-amd-review@google.com
 
 include OWNERS.amd
-isaaclee@google.com
-moisesgarcia@google.com
+
+# Allow SIE maintenance
+include /sie/OWNERS.chromeos_sie

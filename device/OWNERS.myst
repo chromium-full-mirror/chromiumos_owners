@@ -1,6 +1,8 @@
 # Set the owners and code review group for myst.
 # For code review, prefer group.
-cros-proj-myst@google.com
+cros-amd-review@google.com
 
 include OWNERS.amd
-chaogui@google.com
+
+# Allow SIE maintenance
+include /sie/OWNERS.chromeos_sie
