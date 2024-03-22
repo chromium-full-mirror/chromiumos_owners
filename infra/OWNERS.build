@@ -5,7 +5,6 @@ chromeos-build-team@google.com
 
 # Keep sorted.  The LAST_RESORT_SUGGESTION should be applied to each
 # user so that people see our GWSQ instead.
-anujjamwal@google.com #{LAST_RESORT_SUGGESTION}
 gcontreras@google.com #{LAST_RESORT_SUGGESTION}
 jrosenth@google.com #{LAST_RESORT_SUGGESTION}
 msta@google.com #{LAST_RESORT_SUGGESTION}
