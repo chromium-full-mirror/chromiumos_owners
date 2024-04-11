@@ -1,5 +1,6 @@
 # All OWNERS files in this directory should be listed here.
 include OWNERS.au
+include OWNERS.cfm
 include OWNERS.cros_config
 include OWNERS.dlc
 include OWNERS.flexor
@@ -11,4 +12,5 @@ include OWNERS.p12s
 include OWNERS.provision
 include OWNERS.pvs
 include OWNERS.segmentation
+include OWNERS.sensor
 include OWNERS.storage
