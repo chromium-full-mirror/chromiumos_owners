@@ -1,0 +1,5 @@
+# Alias for "all" CrOS PVS subteams
+include OWNERS.cli
+include OWNERS.build
+include OWNERS.tests
+include OWNERS.suites

@@ -1,0 +1,10 @@
+# This owners file is a list of CrOS PVS team members
+# that should be able to approve review and approve
+# PVS related centralized suite/suite_set changes,
+# this is for tracking ownership of partner run
+# suites and suite_sets that PVS team owns and
+# maintains.
+
+bbrotherton@google.com
+jackgelinas@google.com
+ssoltysyak@google.com

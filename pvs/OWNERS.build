@@ -1,0 +1,6 @@
+# This owners file is a list of CrOS PVS team members
+# that should be able to approve review and approve
+# PVS related build and ebuild changes.
+
+bbrotherton@google.com
+jackgelinas@google.com

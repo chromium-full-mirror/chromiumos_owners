@@ -1,0 +1,9 @@
+# This owners file is a list of CrOS PVS team members
+# that should be able to approve review and approve
+# PVS related tast and auotest tests, this includes
+# both partner run tests and infra related tests that
+# the PVS team owns and maintains.
+
+bbrotherton@google.com
+jackgelinas@google.com
+ssoltysyak@google.com
