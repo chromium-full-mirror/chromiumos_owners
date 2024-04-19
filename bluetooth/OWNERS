@@ -1,0 +1,6 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.bluez = file:OWNERS.bluez
+per-file OWNERS.floss = file:OWNERS.floss
+per-file OWNERS.kernel = file:OWNERS.kernel

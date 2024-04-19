@@ -1,0 +1,4 @@
+# Alias for "all" ChromeOS Bluetooth projects.
+include OWNERS.kernel
+include OWNERS.bluez
+include OWNERS.floss
