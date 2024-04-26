@@ -8,7 +8,6 @@ include OWNERS.rbs
 # Keep sorted. The LAST_RESORT_SUGGESTION should be applied to each
 # user so that people see our GWSQ instead.
 azrahman@google.com #{LAST_RESORT_SUGGESTION}
-jaquesc@google.com #{LAST_RESORT_SUGGESTION}
 jaredloucks@google.com #{LAST_RESORT_SUGGESTION}
 juahurta@google.com #{LAST_RESORT_SUGGESTION}
 tbain@google.com #{LAST_RESORT_SUGGESTION}
