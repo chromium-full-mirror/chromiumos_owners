@@ -3,3 +3,4 @@ include OWNERS.all
 
 per-file OWNERS._history_ = file:OWNERS._history_
 per-file OWNERS.build = file:OWNERS.build
+per-file OWNERS.continuous = file:OWNERS.continuous
