@@ -5,7 +5,7 @@ gwendal@google.com
 hiroh@google.com
 htcheong@google.com
 jcliang@google.com
-jimmysun@google.com
+jimmysun@chromium.org
 kamesan@google.com
 kapilporwal@google.com
 lalithkraj@google.com
@@ -15,7 +15,7 @@ mparuchuri@google.com
 pmalani@google.com
 rajatja@google.com
 scollyer@google.com
-senozhatsky@google.com
+senozhatsky@chromium.org
 subratabanik@google.com
 yueherngl@google.com
 zhuohao@google.com

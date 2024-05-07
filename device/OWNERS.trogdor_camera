@@ -4,7 +4,7 @@ beckerh@google.com
 hanlinchen@google.com
 hywu@google.com
 moragues@google.com
-tfiga@google.com
+tfiga@chromium.org
 
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
