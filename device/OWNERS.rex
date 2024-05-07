@@ -1,7 +1,6 @@
 # Rex baseboard team
 
 andrescj@google.com
-benzh@google.com
 gwendal@google.com
 hiroh@google.com
 htcheong@google.com
@@ -11,7 +10,6 @@ kamesan@google.com
 kapilporwal@google.com
 lalithkraj@google.com
 levinale@google.com
-martinroth@google.com
 mcchou@google.com
 mparuchuri@google.com
 pmalani@google.com
@@ -19,8 +17,6 @@ rajatja@google.com
 scollyer@google.com
 senozhatsky@google.com
 subratabanik@google.com
-taruntuli@google.com
-twawrzynczak@google.com
 yueherngl@google.com
 zhuohao@google.com
 
