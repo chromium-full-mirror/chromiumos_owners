@@ -1,5 +1,4 @@
 # Platform NBR (network based recovery) team.
-hbarnor@google.com
-kimjae@google.com
+include OWNERS.au
+
 spothire@google.com
-yuanpengni@google.com
