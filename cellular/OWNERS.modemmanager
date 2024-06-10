@@ -1,0 +1,9 @@
+# This owners file is a list of CrOS Cellular team members that should be able
+# to review and approve changes in ModemManager and its libraries.
+
+aleksandermj@google.com
+andrewlassalle@chromium.org
+ejcaruso@chromium.org
+madhavadas@google.com
+michamazur@google.com
+ujjwalpande@google.com

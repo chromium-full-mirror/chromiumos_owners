@@ -1,0 +1,5 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.modemmanager = file:OWNERS.modemmanager
+per-file OWNERS.modemfwd_helpers = file:OWNERS.modemfwd_helpers

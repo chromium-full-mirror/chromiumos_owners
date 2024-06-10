@@ -1,0 +1,4 @@
+# Alias for "all" CrOS cellular team domains.
+
+include OWNERS.modemmanager
+include OWNERS.modemfwd_helpers
