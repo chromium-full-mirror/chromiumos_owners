@@ -5,3 +5,4 @@ per-file OWNERS.tests = file:OWNERS.tests
 per-file OWNERS.cli = file:OWNERS.cli
 per-file OWNERS.build = file:OWNERS.build
 per-file OWNERS.suites = file:OWNERS.suites
+per-file OWNERS.infra = file:OWNERS.infra

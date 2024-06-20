@@ -1,0 +1,6 @@
+# This owners file is a list of CrOS PVS team members
+# that should be able to review and approve PVS
+# changes that are part of the larger ChromeOS testing
+# infrastructure (e.g. CTP, build docker images, etc)
+
+bbrotherton@google.com

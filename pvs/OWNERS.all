@@ -3,3 +3,4 @@ include OWNERS.cli
 include OWNERS.build
 include OWNERS.tests
 include OWNERS.suites
+include OWNERS.infra
