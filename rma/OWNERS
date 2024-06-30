@@ -1,0 +1,5 @@
+# Allow self-servicing.
+include OWNERS.all
+
+per-file OWNERS.rmad = file:OWNERS.rmad
+per-file OWNERS.rmad_config = file:OWNERS.rmad_config

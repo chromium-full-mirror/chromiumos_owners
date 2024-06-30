@@ -1,0 +1,3 @@
+# Include all subteams.
+include OWNERS.rmad
+include OWNERS.rmad_config

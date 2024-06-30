@@ -1,0 +1,4 @@
+# ChromeOS Shimless RMA (rmad) config.
+include OWNERS.rmad
+
+# Potentially we can add other people to review the configs.
