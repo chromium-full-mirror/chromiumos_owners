@@ -16,3 +16,6 @@ include OWNERS.bringup
 
 # Allow graphics team leads to review kernel CLs.
 include OWNERS.graphics
+
+# Allow large form factor team to review kernel CLs.
+include OWNERS.desktop
