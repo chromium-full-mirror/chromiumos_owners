@@ -13,3 +13,4 @@ include /sie/OWNERS.chromeos_sie
 
 # Allow Kernel uprev
 mattedavis@google.com
+korneld@google.com
