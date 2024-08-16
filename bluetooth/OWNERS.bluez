@@ -1,8 +1,3 @@
 # BlueZ owners
-abhishekpandit@google.com
-alainm@chromium.org
-apusaka@chromium.org
-deanliao@chromium.org
-howardchung@chromium.org
-michaelfsun@google.com
-yinghsu@chromium.org
+# This file cannot be removed, see top level README.
+include OWNERS.all

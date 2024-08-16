@@ -1,4 +1,15 @@
-# Alias for "all" ChromeOS Bluetooth projects.
-include OWNERS.kernel
-include OWNERS.bluez
-include OWNERS.floss
+# Have everyone in BT team as owners
+abhishekpandit@google.com
+alainm@chromium.org
+apusaka@chromium.org
+chharry@google.com
+deanliao@chromium.org
+howardchung@chromium.org
+jiangzp@google.com
+johnlai@google.com
+laikatherine@chromium.org
+melhuishj@chromium.org
+michaelfsun@google.com
+mmandlik@chromium.org
+sarveshkalwit@google.com
+yinghsu@chromium.org
