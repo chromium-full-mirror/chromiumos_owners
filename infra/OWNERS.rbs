@@ -1,5 +1,7 @@
 # CrOS Release and Builder Scaling Team
 
+
+# TODO(b/369156636): Delete this file after usage is replaced with OWNERS.release.
 # Keep sorted.
 # This file is inherited by OWNERS.ci so the LAST_RESORT_SUGGESTION should be
 # applied to each user so that people use the CI GWSQ instead.
