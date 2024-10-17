@@ -14,3 +14,4 @@ include OWNERS.pvs
 include OWNERS.segmentation
 include OWNERS.sensor
 include OWNERS.storage
+include OWNERS.vm
