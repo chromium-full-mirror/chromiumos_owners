@@ -1,0 +1,4 @@
+# Allow self-servicing.
+include OWNERS.pasit
+
+per-file OWNERS.pasit = file:OWNERS.pasit
