@@ -7,3 +7,4 @@ per-file OWNERS.packages = file:OWNERS.packages
 per-file OWNERS.seccomp = file:OWNERS.seccomp
 per-file OWNERS.selinux = file:OWNERS.selinux
 per-file OWNERS.users = file:OWNERS.users
+per-file OWNERS.xdr = file:OWNERS.xdr

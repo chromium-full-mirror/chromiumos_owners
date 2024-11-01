@@ -7,3 +7,4 @@ include OWNERS.packages
 include OWNERS.seccomp
 include OWNERS.selinux
 include OWNERS.users
+include OWNERS.xdr
