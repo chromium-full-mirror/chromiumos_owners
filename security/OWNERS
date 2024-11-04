@@ -1,6 +1,9 @@
-# Allow self-servicing.
-include OWNERS.all
+# Top level owners for security
+aashay@google.com
+jadmanski@google.com
+jorgelo@chromium.org
 
+# Allow self-servicing
 per-file OWNERS.cryptohome = file:OWNERS.cryptohome
 per-file OWNERS.hardening = file:OWNERS.hardening
 per-file OWNERS.packages = file:OWNERS.packages
