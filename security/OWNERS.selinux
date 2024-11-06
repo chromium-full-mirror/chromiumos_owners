@@ -1,5 +1,3 @@
 # Review SELinux policy changes.
 
 include OWNERS.hardening
-
-betuls@google.com
