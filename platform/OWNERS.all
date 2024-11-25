@@ -9,6 +9,7 @@ include OWNERS.hwtools
 include OWNERS.nbr
 include OWNERS.networking
 include OWNERS.p12s
+include OWNERS.performance
 include OWNERS.provision
 include OWNERS.pvs
 include OWNERS.segmentation
