@@ -3,18 +3,12 @@
 #
 # Same as http://cs/chromeos_public/src/config/OWNERS.fleetplatform
 
-anhdle@chromium.org
-anhdle@google.com
 anushruth@google.com
 anushruth@chromium.org
 ashishgandhi@chromium.org
 ashishgandhi@google.com
-ayatane@chromium.org
-ayatane@google.com
 bniche@chromium.org
 bniche@google.com
-denizkara@chromium.org
-denizkara@google.com
 echoyang@google.com
 echoyang@chromium.org
 gowriden@google.com
@@ -23,19 +17,19 @@ gregorynisbet@chromium.org
 gregorynisbet@google.com
 guocb@chromium.org
 guocb@google.com
+jordanmbeleg@chromium.org
+jordanmbeleg@google.com
 justinsuen@google.com
 justinsuen@chromium.org
-mmatyjek@chromium.org
-mmatyjek@google.com
 otabek@chromium.org
 otabek@google.com
 vivekshah@chromium.org
 vivekshah@google.com
-vkjoshi@google.com
-vkjoshi@chromium.org
 xianuowang@chromium.org
 xianuowang@google.com
 xixuan@chromium.org
 xixuan@google.com
+zhangtiff@chromium.org
+zhangtiff@google.com
 
 # Buganizer Component: Chrome Operations > Fleet > Software
