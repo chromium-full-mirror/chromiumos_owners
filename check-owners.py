@@ -98,6 +98,16 @@ def check_data(path: Path, data: str) -> bool:
                     i,
                     line,
                 )
+
+            if path.parent.name != "bots" and "/bots/" in lstrip:
+                ret = False
+                logging.error(
+                    "%s:%i: team/project OWNERS must not include bot accounts; "
+                    'include them directly in the respective repos: "%s"',
+                    path,
+                    i,
+                    line,
+                )
         elif lstrip and not lstrip.startswith("#"):
             if "@" not in line:
                 ret = False
