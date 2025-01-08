@@ -1,8 +1,8 @@
 # CrOS Release and Builder Scaling Team
 
-# Keep sorted.
 # This file is inherited by OWNERS.ci so the LAST_RESORT_SUGGESTION should be
 # applied to each user so that people use the CI GWSQ instead.
+# keep-sorted start
 abutzier@google.com #{LAST_RESORT_SUGGESTION}
 artbello@google.com #{LAST_RESORT_SUGGESTION}
 bshai@google.com #{LAST_RESORT_SUGGESTION}
@@ -10,3 +10,4 @@ ctmcnamara@chromium.org #{LAST_RESORT_SUGGESTION}
 engeg@google.com #{LAST_RESORT_SUGGESTION}
 hardtmad@google.com #{LAST_RESORT_SUGGESTION}
 weingartner@google.com #{LAST_RESORT_SUGGESTION}
+# keep-sorted end

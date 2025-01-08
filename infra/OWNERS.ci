@@ -5,10 +5,12 @@ chromeos-continuous-integration-team@google.com
 include OWNERS.cqw
 include OWNERS.release
 
-# Keep sorted. The LAST_RESORT_SUGGESTION should be applied to each
-# user so that people see our GWSQ instead.
+# The LAST_RESORT_SUGGESTION should be applied to each user so that people
+# see our GWSQ instead.
+# keep-sorted start
 azrahman@google.com #{LAST_RESORT_SUGGESTION}
 gredelston@google.com #{LAST_RESORT_SUGGESTION}
 jaredloucks@google.com #{LAST_RESORT_SUGGESTION}
 juahurta@google.com #{LAST_RESORT_SUGGESTION}
 tbain@google.com #{LAST_RESORT_SUGGESTION}
+# keep-sorted end

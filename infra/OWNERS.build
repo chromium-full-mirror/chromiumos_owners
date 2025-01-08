@@ -3,8 +3,9 @@
 # Send reviews to our GWSQ.
 chromeos-build-team@google.com
 
-# Keep sorted.  The LAST_RESORT_SUGGESTION should be applied to each
-# user so that people see our GWSQ instead.
+# The LAST_RESORT_SUGGESTION should be applied to each user so that people
+# see our GWSQ instead.
+# keep-sorted start
 gcontreras@google.com #{LAST_RESORT_SUGGESTION}
 lovisolo@google.com #{LAST_RESORT_SUGGESTION}
 rrangel@google.com #{LAST_RESORT_SUGGESTION}
@@ -13,3 +14,4 @@ tbain@google.com #{LAST_RESORT_SUGGESTION}
 vapier@chromium.org #{LAST_RESORT_SUGGESTION}
 xcl@google.com #{LAST_RESORT_SUGGESTION}
 zland@google.com #{LAST_RESORT_SUGGESTION}
+# keep-sorted end
