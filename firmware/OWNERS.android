@@ -3,11 +3,13 @@
 # Copied from https://mail.google.com/chat/u/0/#chat/space/AAAATMvN52I. Resync as needed.
 
 # added to assist jpmurphy@ with merge conflicts
-aaronmassey@google.com
+aaronmassey@google.com #{LAST_RESORT_SUGGESTION}
 
+# keep-sorted start
 bernacki@google.com
 czapiga@google.com
 dabros@google.com
+jayvik@google.com
 jpmurphy@google.com
 konrada@google.com
 korneld@google.com
@@ -15,8 +17,9 @@ lmajczak@google.com
 mitrani@google.com
 nogasmith@google.com
 nvaccaro@google.com
+panikiel@google.com
 pbusse@google.com
 subratabanik@google.com
 weishunc@google.com
 yupingso@google.com
-jayvik@google.com
+# keep-sorted end
