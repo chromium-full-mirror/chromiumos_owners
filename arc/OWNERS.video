@@ -1,0 +1,28 @@
+# Owners of ARCVM video code (e.g. Android codecs.xml and perf xml).
+# google.com accounts.
+# keep-sorted start
+abodenha@google.com
+andrescj@google.com
+bchoobineh@google.com
+bselma@google.com
+frkoenig@google.com
+greenjustin@google.com
+hiroh@google.com
+hnt@google.com
+nhebert@google.com
+pmolinalopez@google.com
+# keep-sorted end
+
+# chromium.org accounts.
+# keep-sorted start
+abodenha@chromium.org
+andrescj@chromium.org
+bchoobineh@chromium.org
+bselma@chromium.org
+frkoenig@chromium.org
+greenjustin@chromium.org
+hiroh@chromium.org
+hnt@chromium.org
+nhebert@chromium.org
+pmolinalopez@chromium.org
+# keep-sorted end
