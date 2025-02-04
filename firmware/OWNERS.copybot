@@ -1,0 +1,8 @@
+# Please use gwsq alias for gerrit reviews.
+copybot-maintainers@google.com
+
+# All members of the copybot-maintainers@google.com Group.
+# Copied from https://expn.corp.google.com/. Resync as needed.
+
+jpmurphy@google.com #{LAST_RESORT_SUGGESTION}
+jbettis@google.com #{LAST_RESORT_SUGGESTION}
