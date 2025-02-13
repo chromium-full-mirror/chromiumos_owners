@@ -10,7 +10,6 @@ include OWNERS.release
 # keep-sorted start
 azrahman@google.com #{LAST_RESORT_SUGGESTION}
 gredelston@google.com #{LAST_RESORT_SUGGESTION}
-jaredloucks@google.com #{LAST_RESORT_SUGGESTION}
 juahurta@google.com #{LAST_RESORT_SUGGESTION}
 tbain@google.com #{LAST_RESORT_SUGGESTION}
 # keep-sorted end
