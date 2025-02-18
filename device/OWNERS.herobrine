@@ -1,7 +1,6 @@
 # Herobrine baseboard team
 
 moragues@google.com
-dianders@google.com
 
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
