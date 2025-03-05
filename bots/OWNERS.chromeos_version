@@ -1,2 +1,3 @@
 # Update the ChromeOS version (in chromeos_version.sh).
 chromeos-ci-release@chromeos-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-firmware@chromeos-release-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
