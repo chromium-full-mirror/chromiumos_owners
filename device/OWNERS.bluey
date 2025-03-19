@@ -1,0 +1,6 @@
+# Owners for the bluey device
+kapilporwal@google.com
+subratabanik@google.com
+
+# Allow SIE maintenance
+include /sie/OWNERS.chromeos_sie
