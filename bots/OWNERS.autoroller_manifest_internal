@@ -1,0 +1,5 @@
+# Updates by autoroller to internal ChromeOS manifest.
+#
+# See "service_account" in *-chromeos.cfg files:
+# https://skia.googlesource.com/skia-autoroll-internal-config/+/HEAD/skia-infra-corp/
+chromium-internal-autoroll@skia-corp.google.com.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
