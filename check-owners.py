@@ -30,6 +30,15 @@ assert sys.version_info >= (3, 6), "This module requires Python 3.6+"
 
 _ALLOWED_EXACT_DOMAINS = {"chromium.org", "google.com"}
 _ALLOWED_PARENT_DOMAINS = {"gserviceaccount.com"}
+
+# Exceptions to the bots/ checks.  Borg role accounts don't use
+# gserviceaccount.com domains.
+_ROLE_ACCOUNTS = {
+    # go/keep-sorted start
+    "copybara-worker-blackhole@google.com",
+    # go/keep-sorted end
+}
+
 _LAST_RESORT_SUGGESTION_ANNOTATION = "#{LAST_RESORT_SUGGESTION}"
 
 
@@ -151,9 +160,12 @@ def check_data(path: Path, data: str) -> bool:
 
                 # Special settings for bot accounts.
                 if path.parent.name == "bots":
-                    if not any(
-                        domain.endswith(f".{x}")
-                        for x in _ALLOWED_PARENT_DOMAINS
+                    if not (
+                        email in _ROLE_ACCOUNTS
+                        or any(
+                            domain.endswith(f".{x}")
+                            for x in _ALLOWED_PARENT_DOMAINS
+                        )
                     ):
                         ret = False
                         logging.error(
