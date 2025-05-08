@@ -1,7 +1,6 @@
 # Strongbad baseboard team
 
 moragues@google.com
-swboyd@google.com
 
 # Allow SIE maintenance
 include /sie/OWNERS.chromeos_sie
