@@ -1,5 +1,5 @@
-# ChromeOS Code Experience Team.
-gredelston@google.com
-jamesfeister@google.com
-jonfan@google.com
-vapier@chromium.org
+# ChromeOS Code Experience team.
+# This team no longer exists.
+# The ChromeOS systems that it owned―namely, the ChromiumOS Codesearch builders―
+# are now owned by the Build team.
+include OWNERS.build
