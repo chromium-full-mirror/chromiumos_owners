@@ -1,6 +1,7 @@
 # Alias for "all" CrOS kernel subteams.
 
 include OWNERS._history_
+include OWNERS.branch
 include OWNERS.build
 include OWNERS.continuous
 include OWNERS.kdump
