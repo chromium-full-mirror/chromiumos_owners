@@ -1,6 +1,6 @@
 # Infra Security Team (chops-security-core@)
 
-# keep-sorted start
+# go/keep-sorted start
 aredulla@google.com
 ayatane@google.com
 dlf@google.com
@@ -10,4 +10,4 @@ mitchella@google.com
 qjw@google.com
 renewitt@google.com
 rop@google.com
-# keep-sorted end
+# go/keep-sorted end

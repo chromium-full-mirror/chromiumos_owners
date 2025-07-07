@@ -2,7 +2,7 @@
 
 # This file is inherited by OWNERS.ci so the LAST_RESORT_SUGGESTION should be
 # applied to each user so that people use the CI GWSQ instead.
-# keep-sorted start
+# go/keep-sorted start
 andrewlamb@chromium.org #{LAST_RESORT_SUGGESTION}
 arifkasim@google.com #{LAST_RESORT_SUGGESTION}
 dhanyaganesh@chromium.org #{LAST_RESORT_SUGGESTION}
@@ -10,4 +10,4 @@ gredelston@google.com #{LAST_RESORT_SUGGESTION}
 harshpadh@google.com #{LAST_RESORT_SUGGESTION}
 navil@google.com #{LAST_RESORT_SUGGESTION}
 xcl@google.com #{LAST_RESORT_SUGGESTION}
-# keep-sorted end
+# go/keep-sorted end

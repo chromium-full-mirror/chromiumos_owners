@@ -1,5 +1,5 @@
 # Ash-Chrome maintainers.
-# keep-sorted start
+# go/keep-sorted start
 andreaorru@chromium.org
 diwux@chromium.org
 edcourtney@chromium.org
@@ -9,12 +9,12 @@ hidehiko@google.com
 khorimoto@google.com
 neis@chromium.org
 oshima@chromium.org
-# keep-sorted end
+# go/keep-sorted end
 
 # Chrome gardeners.
-# keep-sorted start
+# go/keep-sorted start
 achuith@chromium.org
 alvinjia@google.com
 bpastene@chromium.org
 yoshiki@chromium.org
-# keep-sorted end
+# go/keep-sorted end

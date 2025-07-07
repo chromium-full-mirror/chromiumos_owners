@@ -7,9 +7,9 @@ include OWNERS.release
 
 # The LAST_RESORT_SUGGESTION should be applied to each user so that people
 # see our GWSQ instead.
-# keep-sorted start
+# go/keep-sorted start
 azrahman@google.com #{LAST_RESORT_SUGGESTION}
 gredelston@google.com #{LAST_RESORT_SUGGESTION}
 juahurta@google.com #{LAST_RESORT_SUGGESTION}
 tbain@google.com #{LAST_RESORT_SUGGESTION}
-# keep-sorted end
+# go/keep-sorted end

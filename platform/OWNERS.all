@@ -1,5 +1,5 @@
 # All OWNERS files in this directory should be listed here.
-# keep-sorted start
+# go/keep-sorted start
 include OWNERS.au
 include OWNERS.cfm
 include OWNERS.chrome
@@ -18,4 +18,4 @@ include OWNERS.segmentation
 include OWNERS.sensor
 include OWNERS.storage
 include OWNERS.vm
-# keep-sorted end
+# go/keep-sorted end

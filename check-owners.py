@@ -117,7 +117,16 @@ def check_data(path: Path, data: str) -> bool:
                     i,
                     line,
                 )
-        elif lstrip and not lstrip.startswith("#"):
+        elif lstrip.startswith("#"):
+            if lstrip.startswith("# keep-sorted"):
+                ret = False
+                logging.error(
+                    "%s:%i: use '# go/keep-sorted' instead "
+                    "of '# keep-sorted'",
+                    path,
+                    i,
+                )
+        elif lstrip:
             if "@" not in line:
                 ret = False
                 logging.error(

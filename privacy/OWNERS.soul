@@ -1,12 +1,12 @@
 # OWNERS for the SOUL project.
 
 # Primary
-# keep-sorted start
+# go/keep-sorted start
 cschlosser@chromium.org
-# keep-sorted end
+# go/keep-sorted end
 
 # Secondary
-# keep-sorted start
+# go/keep-sorted start
 janlanik@google.com #{LAST_RESORT_SUGGESTION}
 shahinmd@google.com #{LAST_RESORT_SUGGESTION}
-# keep-sorted end
+# go/keep-sorted end

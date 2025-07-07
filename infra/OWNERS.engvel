@@ -1,6 +1,6 @@
 # CrOS EngVel Team working on infra.
 
-# keep-sorted start
+# go/keep-sorted start
 fqj@google.com #{LAST_RESORT_SUGGESTION}
 hashimoto@google.com #{LAST_RESORT_SUGGESTION}
 hscham@google.com #{LAST_RESORT_SUGGESTION}
@@ -10,4 +10,4 @@ oka@google.com #{LAST_RESORT_SUGGESTION}
 ttylenda@google.com #{LAST_RESORT_SUGGESTION}
 yamaguchi@google.com #{LAST_RESORT_SUGGESTION}
 yoshiki@google.com #{LAST_RESORT_SUGGESTION}
-# keep-sorted end
+# go/keep-sorted end
