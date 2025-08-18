@@ -5,7 +5,6 @@ cros-ec-reviewers@google.com
 # Copied from https://expn.corp.google.com/. Resync as needed.
 
 aaboagye@google.com #{LAST_RESORT_SUGGESTION}
-acwans@google.com #{LAST_RESORT_SUGGESTION}
 alevkoy@google.com #{LAST_RESORT_SUGGESTION}
 aljacobs@google.com #{LAST_RESORT_SUGGESTION}
 apronin@google.com #{LAST_RESORT_SUGGESTION}
@@ -13,11 +12,10 @@ asemjonovs@google.com #{LAST_RESORT_SUGGESTION}
 bensonchen@google.com #{LAST_RESORT_SUGGESTION}
 bernacki@google.com #{LAST_RESORT_SUGGESTION}
 bmbm@google.com #{LAST_RESORT_SUGGESTION}
+carlturner@google.com #{LAST_RESORT_SUGGESTION}
 caveh@google.com #{LAST_RESORT_SUGGESTION}
 czapiga@google.com #{LAST_RESORT_SUGGESTION}
 dabros@google.com #{LAST_RESORT_SUGGESTION}
-dawidn@google.com #{LAST_RESORT_SUGGESTION}
-dnojiri@google.com #{LAST_RESORT_SUGGESTION}
 dossym@google.com #{LAST_RESORT_SUGGESTION}
 fabiobaltieri@google.com #{LAST_RESORT_SUGGESTION}
 gwendal@google.com #{LAST_RESORT_SUGGESTION}
@@ -27,7 +25,7 @@ hungte@google.com #{LAST_RESORT_SUGGESTION}
 jasonyuan@google.com #{LAST_RESORT_SUGGESTION}
 jayvik@google.com #{LAST_RESORT_SUGGESTION}
 jbettis@google.com #{LAST_RESORT_SUGGESTION}
-jnwachukwu@google.com #{LAST_RESORT_SUGGESTION}
+jpmurphy@google.com #{LAST_RESORT_SUGGESTION}
 keithshort@google.com #{LAST_RESORT_SUGGESTION}
 konrada@google.com #{LAST_RESORT_SUGGESTION}
 lschyi@google.com #{LAST_RESORT_SUGGESTION}
