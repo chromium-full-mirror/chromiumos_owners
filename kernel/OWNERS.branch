@@ -1,19 +1,25 @@
-# Kernel branch owners (g/chromeos-kernel-core-team)
+# Special alias managed by gwsq
+cros-kernel-owners-reviews@google.com
 
-amad@google.com
-garrick@chromium.org
-garrick@google.com
-hikalium@chromium.org
-hikalium@google.com
-linyaa@google.com
-mhiramat@chromium.org
-mhiramat@google.com
-senozhatsky@chromium.org
-senozhatsky@google.com
-suleiman@google.com
-tfiga@chromium.org
-tfiga@google.com
-tzungbi@chromium.org
-tzungbi@google.com
-zwisler@chromium.org
-zwisler@google.com
+# Kernel branch owners (g/chromeos-kernel-core-team)
+#
+# Annotate individual members as last resort suggestion to make Gerrit
+# always select the gwsq account.
+#
+amad@google.com #{LAST_RESORT_SUGGESTION}
+garrick@chromium.org #{LAST_RESORT_SUGGESTION}
+garrick@google.com #{LAST_RESORT_SUGGESTION}
+hikalium@chromium.org #{LAST_RESORT_SUGGESTION}
+hikalium@google.com #{LAST_RESORT_SUGGESTION}
+linyaa@google.com #{LAST_RESORT_SUGGESTION}
+mhiramat@chromium.org #{LAST_RESORT_SUGGESTION}
+mhiramat@google.com #{LAST_RESORT_SUGGESTION}
+senozhatsky@chromium.org #{LAST_RESORT_SUGGESTION}
+senozhatsky@google.com #{LAST_RESORT_SUGGESTION}
+suleiman@google.com #{LAST_RESORT_SUGGESTION}
+tfiga@chromium.org #{LAST_RESORT_SUGGESTION}
+tfiga@google.com #{LAST_RESORT_SUGGESTION}
+tzungbi@chromium.org #{LAST_RESORT_SUGGESTION}
+tzungbi@google.com #{LAST_RESORT_SUGGESTION}
+zwisler@chromium.org #{LAST_RESORT_SUGGESTION}
+zwisler@google.com #{LAST_RESORT_SUGGESTION}
