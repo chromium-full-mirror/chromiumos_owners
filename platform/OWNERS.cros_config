@@ -1,7 +1,12 @@
 # OWNERS for platform2/chromeos-config, as well as board support
 # packages, and any other cros_config bits around.
+# go/keep-sorted start
+aamirbohra@google.com
 andrewlamb@google.com
+chaogui@google.com
 jessemcguire@google.com
 rrangel@google.com
-aamirbohra@google.com
-chaogui@google.com
+# go/keep-sorted end
+
+# Core tooling.
+include /infra/OWNERS.build
