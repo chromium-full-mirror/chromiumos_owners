@@ -7,3 +7,4 @@ per-file OWNERS.cop = file:OWNERS.cop
 per-file OWNERS.engvel = file:OWNERS.engvel
 per-file OWNERS.fleetplatform = file:OWNERS.fleetplatform
 per-file OWNERS.fleetservices = file:OWNERS.fleetservices
+per-file OWNERS.tse = file:OWNERS.tse
