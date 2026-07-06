@@ -1,0 +1,11 @@
+# Bots that update https://chrome-internal.googlesource.com/chromeos/manifest-versions/
+# go/keep-sorted start
+chromeos-ci-prod@chromeos-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-ci-release@chromeos-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-ci-release@chromeos-release-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-ci-release-staging@chromeos-release-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-firmware@chromeos-release-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-firmware-staging@chromeos-release-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+chromeos-staging@chromeos-bot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+nest-gwifi-cbb-ci-builder@nest-gwifi-cbuildbot.iam.gserviceaccount.com #{LAST_RESORT_SUGGESTION}
+# go/keep-sorted end
