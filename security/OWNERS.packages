@@ -1,7 +1,8 @@
 # Review package additions.
 
+# go/keep-sorted start
 aashay@google.com
 allenwebb@google.com
 jasonling@chromium.org
-jorgelo@chromium.org
 lziest@google.com
+# go/keep-sorted end
