@@ -3,4 +3,4 @@ kapilporwal@google.com
 subratabanik@google.com
 
 # Allow SIE maintenance
-include /sie/OWNERS.chromeos_sie
+include chromeos/owners:v1:/sie/OWNERS.chromeos_sie
