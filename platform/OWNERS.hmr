@@ -1,3 +1,2 @@
-# Human Motion Robot Project team.
-hbarnor@chromium.org
-wmahon@google.com
+# The platform inputs team owns the Human Motion Robot project.
+include OWNERS.p12s
