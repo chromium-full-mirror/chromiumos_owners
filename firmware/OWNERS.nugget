@@ -1,0 +1,13 @@
+# Nugget OWNERS
+#
+# Engineers who own the nugget driver and its policy engine.
+
+# go/keep-sorted start
+asavery@google.com
+bmbm@google.com
+caveh@google.com
+jasonyuan@google.com
+keithshort@google.com
+kylelinck@google.com
+waihong@google.com
+# go/keep-sorted end
