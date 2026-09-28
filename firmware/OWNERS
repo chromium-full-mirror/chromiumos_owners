@@ -1,2 +1,4 @@
 # Allow self-servicing.
 include OWNERS.all
+
+per-file OWNERS.automated_qual = file:OWNERS.automated_qual
