@@ -1,3 +1,2 @@
 # Alias for "all" CrOS privacy teams.
-include OWNERS.client_logging
 include OWNERS.features
