@@ -8,6 +8,7 @@ include OWNERS.dlc
 include OWNERS.flexor
 include OWNERS.hmr
 include OWNERS.hwtools
+include OWNERS.migration
 include OWNERS.nbr
 include OWNERS.networking
 include OWNERS.p12s
